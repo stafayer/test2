@@ -14,6 +14,7 @@
 		4B3F0BC21F94E04600582358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F0BC01F94E04600582358 /* LaunchScreen.storyboard */; };
 		4B3F0BCD1F94E04600582358 /* test2_gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F0BCC1F94E04600582358 /* test2_gitTests.swift */; };
 		4B3F0BD81F94E04600582358 /* test2_gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F0BD71F94E04600582358 /* test2_gitUITests.swift */; };
+		4B3F0BE71F94E79E00582358 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F0BE61F94E79800582358 /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B3F0BD31F94E04600582358 /* test2.gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2.gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3F0BD71F94E04600582358 /* test2_gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2_gitUITests.swift; sourceTree = "<group>"; };
 		4B3F0BD91F94E04600582358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3F0BE61F94E79800582358 /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4B3F0BB61F94E04600582358 /* test2.git */ = {
 			isa = PBXGroup;
 			children = (
+				4B3F0BE51F94E75F00582358 /* ressource */,
 				4B3F0BB71F94E04600582358 /* AppDelegate.swift */,
 				4B3F0BB91F94E04600582358 /* ViewController.swift */,
 				4B3F0BBB1F94E04600582358 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				4B3F0BD91F94E04600582358 /* Info.plist */,
 			);
 			path = test2.gitUITests;
+			sourceTree = "<group>";
+		};
+		4B3F0BE51F94E75F00582358 /* ressource */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F0BE61F94E79800582358 /* arbreDeGit.png */,
+			);
+			path = ressource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				4B3F0BC21F94E04600582358 /* LaunchScreen.storyboard in Resources */,
 				4B3F0BBF1F94E04600582358 /* Assets.xcassets in Resources */,
+				4B3F0BE71F94E79E00582358 /* arbreDeGit.png in Resources */,
 				4B3F0BBD1F94E04600582358 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
